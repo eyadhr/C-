@@ -24,3 +24,4 @@ Illegal number
 
 ב.
 moltpy n by f(wich starts at 1 and saves the value  off*=n)  wihle dec n until 0 then prints the number
+*/

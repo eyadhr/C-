@@ -2,9 +2,9 @@
 
 int main()
 {
-    int num, star = 1,space;
+    int num, star = 1,space = 4;
     scanf("%d", &num);
-    space = num;
+
     for (int i = 0; i < num; i++)
     {
         for (int i=0 ; i < space ; i++)
