@@ -11,7 +11,6 @@ int main()
         {
             in_sum *= num;
         }
-        printf("*");
         sum += in_sum;
         in_sum = 1;
     }
