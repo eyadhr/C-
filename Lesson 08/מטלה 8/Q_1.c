@@ -13,16 +13,14 @@ void main()             // כותרת הפונקציה הראשית
 }
 int isPrimary(int num) // כותרת הפונקציה
 {
-    int y=1;
 
     for (int i = 2; i <= num/2; i++)
     {
         if (num%i==0)
         {
-            y=0;
-            break;
+            return 0;
         }
 
     }
-      return y;
+      return 1;
 }
