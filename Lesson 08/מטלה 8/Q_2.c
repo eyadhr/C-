@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
+
 int isPrimary(int num); // הצהרה על הפונקציה
 void main()             // כותרת הפונקציה הראשית
 {
-    int x,i;
+    int num,i;
     printf("Enter a number ");
-    scanf("%d", &x);
-    for (int i = 2; i <= x; i++)
+    scanf("%d", &num);
+    for (int i = 2; i <= num; i++)
     {
     if (isPrimary(i) == 1)
         printf("%d ",i);
