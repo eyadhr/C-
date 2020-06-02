@@ -2,23 +2,18 @@
 
 int main()
 {
-    int num, star = 1,space;
-    scanf("%d", &num);
-    space = num;
-    for (int i = 0; i < num; i++)
-    {
-        for (int i=0 ; i < space ; i++)
-        {
-            printf(" ");
-        
-        }
-            for (int i = 0; i < star; i++)
-            {
-                printf("*");
+    int num,count=0;
 
-            }
-        space--;
-        printf("\n");
-        star+=2;
+    for (int i = 0; i <= 10; i++)
+    {
+        scanf("%d",&num);
+
+        while (num > 0)
+        {
+            num /=10;
+            count++;
+        }
+        
     }
+    printf("%d",count);
 }

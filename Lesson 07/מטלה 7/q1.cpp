@@ -2,16 +2,12 @@
 
 int main()
 {
-    int num,count=0;
-    scanf("%d", &num);
-
-    for (int i = 0; i < num; i++)
-    {
-        count++;
-        for (int i = 0; i < count; i++)
+    int num,in_sum = 1,sum=0;
+    scanf("%d",&num);
+    
+        for (int i = 1; i < num+1; i++)
         {
-            printf("* ");
+            in_sum *= num;
         }
-        printf("\n");
-    }
+        printf("\n%d", in_sum);
 }
