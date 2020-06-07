@@ -1,5 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+int solution(int N);
+
+int main()
+{
+	int num;
+	scanf("%d",num);
+	solution(num);
+}
+
 int solution(int N)
 {
 
@@ -20,7 +30,7 @@ int solution(int N)
 
 	while (y != 0)
 	{
-
+		
 		if (bin[y] == 1)
 		{
 			one++;

@@ -1,0 +1,2 @@
+
+int solution(int N)
